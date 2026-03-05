@@ -24,7 +24,11 @@ playwright-demo
 ├── fixtures
 │   └── customFixture.js
 │
+├── pages
+│   └── products.html
+│
 ├── playwright.config.js
+├── .gitignore
 └── package.json
 ```
 
@@ -69,7 +73,7 @@ npx playwright test
 Run a specific test file:
 
 ```
-npx playwright test tests/assertions.spec.js
+npx playwright test tests/mocking.spec.js
 ```
 
 ## Test Report
